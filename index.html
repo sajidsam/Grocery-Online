@@ -27,10 +27,22 @@
 </head>
 
 <body>
-    <header class="mb-20">
-        <nav class="lg:mt-8 lg:mx-36">
-            <div class="flex justify-between items-center mt-4">
-                <div>
+    <header class="lg:mb-20 sm:mb-3">
+        <nav class="lg:mt-8 lg:mx-36 sm:mx-3 p-3">
+            <!-- mobile or smaller devices layout -->
+            <div class="lg:hidden flex justify-between items-center ">
+                    <div>
+                        <img src="c2-assets/Group (1).svg" alt="">
+                    </div>
+                    <div>
+                        <button class="text-[#179800]">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+            </div>
+            <!-- Desktop Device -->
+            <div class="flex justify-between items-center mt-4 hidden sm:flex">
+                <div class="">
                     <img src="c2-assets/logo-header.png" alt="Logo">
                 </div>
                 <div class="space-x-4">
@@ -41,22 +53,23 @@
                 <div class="flex space-x-4 items-center">
                     <i class="fas fa-search"></i>
                     <img src="c2-assets/Group.png" alt="Custom Icon">
-                    <button
-                        class="bg-white text-black border border-[rgba(23,152,0,1)] px-6 py-2 rounded-[8px]">Login</button>
+                    <button class="bg-white text-black border border-[rgba(23,152,0,1)] px-6 py-2 rounded-[8px]">Login</button>
                     <button class="bg-[rgba(23,152,0,1)] text-white px-8 py-2 rounded-[8px]">Register</button>
                 </div>
             </div>
+            
         </nav>
     </header>
     <main>
         <!-- Freshness  -->
         <section class="text-center lg:mx-50 md:mx-7">
 
-            <h1 class="lg:text-5xl font-semibold">Freshness You Can <br>
-                Count On, Prices You’ll Love!
+            <h1 class="font-semibold lg:text-5xl sm:text-3xl">Freshness <span class="text-[#179800]">You Can <br>
+                Count</span> On, Prices You’ll Love!
             </h1>
-            <p class="mt-2">
-                Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+            <p class="mt-8 lg:text-xl font-normal sm:text-[16px]">
+                Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
+                staples, we’ve got you
                 covered every day!
 
             </p>
