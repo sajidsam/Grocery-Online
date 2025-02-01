@@ -31,14 +31,14 @@
         <nav class="lg:mt-8 lg:mx-36 sm:mx-3 p-3">
             <!-- mobile or smaller devices layout -->
             <div class="lg:hidden flex justify-between items-center ">
-                    <div>
-                        <img src="c2-assets/Group (1).svg" alt="">
-                    </div>
-                    <div>
-                        <button class="text-[#179800]">
-                            <i class="fas fa-bars"></i>
-                        </button>
-                    </div>
+                <div>
+                    <img src="c2-assets/Group (1).svg" alt="">
+                </div>
+                <div>
+                    <button class="text-[#179800]">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
             </div>
             <!-- Desktop Device -->
             <div class="flex justify-between items-center mt-4 hidden sm:flex">
@@ -53,75 +53,78 @@
                 <div class="flex space-x-4 items-center">
                     <i class="fas fa-search"></i>
                     <img src="c2-assets/Group.png" alt="Custom Icon">
-                    <button class="bg-white text-black border border-[rgba(23,152,0,1)] px-6 py-2 rounded-[8px]">Login</button>
+                    <button
+                        class="bg-white text-black border border-[rgba(23,152,0,1)] px-6 py-2 rounded-[8px]">Login</button>
                     <button class="bg-[rgba(23,152,0,1)] text-white px-8 py-2 rounded-[8px]">Register</button>
                 </div>
             </div>
-            
+
         </nav>
     </header>
     <main>
         <!-- Freshness  -->
-        <section class="text-center lg:mx-50 md:mx-7">
+        <section class="text-center sm:mx-7">
 
             <h1 class="font-semibold lg:text-5xl sm:text-3xl">Freshness <span class="text-[#179800]">You Can <br>
-                Count</span> On, Prices You’ll Love!
+                    Count</span> On, Prices You’ll Love!
             </h1>
-            <p class="mt-8 lg:text-xl font-normal sm:text-[16px]">
+            <p class="mt-8 sm:mb-8 text-xs font-light mx-7 lg:mt-8 lg:text-xl lg:font-normal">
                 Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
                 staples, we’ve got you
                 covered every day!
-
             </p>
-
-            <div>
-                <img src="c2-assets/hero-vegetables.png" alt="" class="w-full">
+            <div class="lg:ml-64 ">
+                <img src="c2-assets/hero-vegetables.png" alt="" class="sm:w-full">
             </div>
+
 
         </section>
         <!-- Services -->
-        <section class="flex justify-center mt-16 gap-x-8 mx-[144px] mb">
+        <section class="mt-10 sm:mt-10">
 
-            <h2 class="text-[rgba(23, 152, 0, 1)] mb-10">services</h2>
-
-            <div class="bg-[rgb(239,235,227)] text-center p-8 flex-1 rounded-[16px]">
-                <img src="c2-assets/service.png" alt="" class="mx-auto">
-                <h2>24/7 Services</h2>
-                <p>We understand that your financial needs don’t follow a schedule. That’s why our services are
-                    available 24/7.</p>
+            <h2 class="text-[#179800] mb-10 mt-4 sm:mt-10 ml-6 lg:ml-36 font-semibold text-2xl lg:text-4xl">Services</h2>
+        
+            <div class="flex flex-col lg:flex-row justify-center mt-10 gap-8 mx-4 lg:mx-[144px] sm:mx-4">
+                <div class="bg-[rgb(239,235,227)] text-center p-8 rounded-[16px] flex-1 sm:p-5">
+                    <img src="c2-assets/service.png" alt="" class="mx-auto">
+                    <h2 class="font-semibold mt-6 sm:text-sm sm:mt-8 lg:text-2xl">24/7 Services</h2>
+                    <p class="text-lg font-light sm:text-sm lg:text-lg">We understand that your financial needs don’t follow a schedule. That’s why our services are available 24/7.</p>
+                </div>
+                <div class="bg-[rgb(239,235,227)] text-center p-8 rounded-[16px] flex-1">
+                    <img src="c2-assets/delivery.png" alt="" class="mx-auto">
+                    <h2 class="font-semibold mt-6 lg:text-2xl text-base">Fast Delivery</h2>
+                    <p class="text-lg font-light sm:text-xs lg:text-lg">Craving fresh groceries? We’ve got you covered! With our lightning-fast delivery service.</p>
+                </div>
+                <div class="bg-[rgb(239,235,227)] text-center p-8 rounded-[16px] flex-1">
+                    <img src="c2-assets/healthy.png" alt="" class="mx-auto">
+                    <h2 class="font-semibold mt-6 lg:text-2xl text-base">Healthy Products</h2>
+                    <p class="text-lg font-light">We believe in delivering only the best for your health! Our products are fresh, organic, and carefully selected.</p>
+                </div>
             </div>
-            <div class="bg-[rgb(239,235,227)] text-center p-8 flex-1 rounded-[16px]">
-                <img src="c2-assets/delivery.png" alt="" class="mx-auto">
-                <h2>Fast Delivery</h2>
-                <p>Craving fresh groceries? We’ve got you covered! With our lightning-fast delivery service.</p>
-            </div>
-            <div class="bg-[rgb(239,235,227)] text-center p-8 flex-1 rounded-[16px]">
-                <img src="c2-assets/healthy.png" alt="" class="mx-auto">
-                <h2>Healthy Products</h2>
-                <p>We believe in delivering only the best for your health! Our products are fresh, organic, and
-                    carefully selected.</p>
-            </div>
+        
         </section>
+        
         <!-- Popular products    -->
-        <section class="bg-[#EFEBE3] mr-28 mt-16 pb-12">
+        <section class="bg-[#EFEBE3] mr-0 lg:mr-28 mt-16  pb-12 pt-6">
 
-            <h2 class="text-green-600 ml-28">Popular Products</h2>
+            <h2 class="text-[#179800] ml-4 sm:ml-6 lg:ml-36 mt-10 mb-10 text-2xl lg:text-4xl font-bold">Popular Products</h2>
 
 
             <!-- 1 -->
-            <div class="grid grid-cols-5 gap-4 ml-28 mr-[20px] my-12">
+            <div class=" grid grid-cols-2  gap-4 ml-0 lg:ml-28 mx-auto lg:mr-[20px] lg:my-12 px-10 lg:grid-cols-5 ">
+
                 <div class="col-span-2 row-span-3 bg-gray-200 bg-[rgba(249, 223, 138, 1)]">
-                    <h2>30% off</h2>
-                    <p>Discover a world of treats</p>
-                    <a href=""><button>Buy Now</button></a>
+                    <h2 class="text-3xl mt-10 ml-10">30% off</h2>
+                    <p class="text-xs ml-10">Discover a world of treats</p>
+                    <a href=""><button class="ml-10 px-3 py-2 bg-white rounded-[10px]">Buy Now</button></a>
                     <div>
-                        <img src="c2-assets/vegetable-offer.png" alt="">
+                        <img src="c2-assets/vegetable-offer.png" alt="" class="ml-8 lg:ml-30">
                     </div>
                 </div>
 
 
                 <!-- 2-->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -131,14 +134,14 @@
                     <div>
                         <i class="fas fa-star text-yellow-500"></i>
                         <span>4.5</span>
-                        <h5>onion 1 kg</h5>
+                        <h5 class="text-lg sm:text-[3px] lg:text-[16px]">onion 1 kg</h5>
                         <p> $39.99</p>
                     </div>
                 </div>
 
 
                 <!-- 3 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -155,7 +158,7 @@
 
 
                 <!-- 4 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -172,7 +175,7 @@
 
 
                 <!-- 5 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -188,7 +191,7 @@
                 </div>
 
                 <!-- 6 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -204,7 +207,7 @@
                 </div>
 
                 <!-- 7 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -221,7 +224,7 @@
 
 
                 <!-- 8 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -238,7 +241,7 @@
 
 
                 <!-- 9 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white flex p-3 gap-2 rounded-xl">
 
                     <!-- product image -->
                     <div>
@@ -255,7 +258,7 @@
 
 
                 <!-- 10 -->
-                <div class="bg-gray-200 flex p-3 gap-2 rounded-xl">
+                <div class="bg-white  p-3 gap-2 rounded-xl hidden sm:flex">
 
                     <!-- product image -->
                     <div>
@@ -272,14 +275,16 @@
             </div>
         </section>
         <!-- Arrival & offers -->
-        <section class="ml-32 mb-[250px]">
-            <h2 class="">Arrival and Offers</h2>
-            <div class="flex  gap-3">
-                <div class="bg-[#115414] flex rounded-3xl p-5">
-                    <div>
+        <section class="ml-0 lg:ml-32 mb-[250px] text-white">
+
+            <h2 class="text-[#115414] my-10 font-semibold text-4xl ">Arrival and Offers</h2>
+            <div class="gap-3 flex-row lg:flex w-full mx-auto">
+
+                <div class="bg-[#115414] flex rounded-3xl p-5 w-70 lg:w-1/2">
+                    <div class="space-y-4 text-center mt-13">
                         <img src="c2-assets/dawat-logo.png" alt="">
-                        <button class="bg-[#63B76D] p-3">Cook Exotic Dishes</button>
-                        <h1>UP to <span class="">20% OFF</span></h1>
+                        <button class="bg-[#63B76D] p-3 rounded-lg">Cook Exotic Dishes</button>
+                        <h1 class="font-normal text-3xl">UP to <span class="font-bold">20% OFF</span></h1>
                     </div>
                     <div>
                         <img src="c2-assets/dawat-mock-up.png" alt="">
@@ -287,11 +292,11 @@
                     </div>
                 </div>
 
-                <div class="flex bg-[#102861] rounded-3xl p-10">
-                    <div>
+                <div class="flex bg-[#102861] rounded-3xl p-10 gap-5 w-70">
+                    <div class="space-y-2  mt-4">
                         <img src="c2-assets/india-gate-logo.png" alt="">
-                        <button class="bg-[#2A4D97] p-3">World’s No.1 Rice</button>
-                        <h1>UP to <span>40% OFF</span></h1>
+                        <button class="bg-[#2A4D97] p-3 rounded-md">World’s No.1 Rice</button>
+                        <h1  class="font-normal text-3xl">UP to <span>40% OFF</span></h1>
 
                     </div>
                     <div>
@@ -301,54 +306,53 @@
             </div>
         </section>
         <!-- footer -->
-        <section class="bg-[#179800]">
-            <div class="lg:mx-30">
+        <section class="bg-[#179800]  px-4 lg:px-20 w-96 lg:w-full mx-auto">
+            <div class="mx-0 lg:mx-30">
                 <!-- cart -->
-                <div class="flex items-center bg-[#EFEBE3] relative -top-48 p-8 rounded-3xl">
-                        <div>
-                            <img src="c2-assets/vegetable-busket.png" alt="" class="w-full">
-                        </div>
-
-                        <div class="space-y-4">
-                            <h1>Get grocery news</h1>
-                            <p>Exclusive training tips, ticks, product deals and more.</p>
-                            <input type="text" placeholder="Enter e-mail" class="bg-white outline-none p-3 w-80 rounded-lg">
-                            <br>
-                            <br>
-                            <a href="#"><button class="bg-[#179800] px-3 py-2 rounded">Subscribe</button></a>
-                        </div>
-                </div>
-            <!-- r/a footer -->
-            <div class="flex justify-between items-end text-white">
-                <div>
-                    <img src="c2-assets/Vector.svg" alt="">
-                    <p>Discover a world of treats, toys, and <br>
-                        essentials handpicked for your furry <br>
-                        friends
-                    </p>
-                </div>
-                <div>
-                    <p>
-                        Product
-                        <br>
-                        Service
-                        <br>
-                        Contact Us
-                    </p>
-                </div>
-                <div>
-                    <p >Follow Us</p>
-
-                    <div class="flex gap-3">
-                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                <div class="flex items-center bg-[#EFEBE3] relative -top-48 p-8 rounded-3xl mx-auto w-11/12">
+                    <div>
+                        <img src="c2-assets/vegetable-busket.png" alt="" class="w-full">
                     </div>
-                    
 
+                    <div class="space-y-4">
+                        <h1>Get grocery news</h1>
+                        <p>Exclusive training tips, ticks, product deals and more.</p>
+                        <input type="text" placeholder="Enter e-mail" class="bg-white outline-none p-3 lg:w-80 rounded-lg">
+                        <br>
+                        <br>
+                        <a href="#"><button class="bg-[#179800] px-3 py-2 rounded">Subscribe</button></a>
+                    </div>
                 </div>
-            </div>
+                <!-- r/a footer -->
+                <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end pb-20 text-white ">
+                    <div>
+                        <img src="c2-assets/Vector.svg" alt="">
+                        <p class="text-sm lg:">Discover a world of treats, toys, and <br>
+                            essentials handpicked for your furry <br>
+                            friends
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Product
+                            <br>
+                            Service
+                            <br>
+                            Contact Us
+                        </p>
+                    </div>
+                    <div>
+                        <p>Follow Us</p>
+
+                        <div class="flex gap-3">
+                            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
