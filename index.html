@@ -52,7 +52,6 @@
                 </div>
                 <div class="flex space-x-4 items-center">
                     <i class="fas fa-search"></i>
-                   
                     <i class="fas fa-shopping-cart"></i>
                     <button
                         class="bg-white text-black border border-[rgba(23,152,0,1)] px-6 py-2 rounded-[8px]">Login</button>
@@ -64,20 +63,49 @@
     </header>
     <main>
         <!-- Freshness  -->
-        <section class="text-center" style="background: linear-gradient(to top, #EFEBE3, white);">
-
-            <h1 class="font-semibold lg:text-5xl sm:text-3xl">Freshness <span class="text-[#179800]">You Can <br>
-                    Count</span> On, Prices You’ll Love!
+        <section class="text-center" style="background: linear-gradient(to top, #EFEBE3, white); padding: 2rem 0;">
+            <h1 class="font-semibold lg:text-5xl sm:text-3xl animate-fade-in">
+                Freshness <span class="text-[#179800]">You Can <br> Count</span> On, Prices You’ll Love!
             </h1>
-            <p class="mt-8 sm:mb-8 text-xs font-light mx-7 lg:mt-8 lg:text-xl lg:font-normal">
+            <p class="mt-8 sm:mb-8 text-xs font-light mx-7 lg:mt-8 lg:text-xl lg:font-normal animate-fade-in">
                 Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
-                staples, we’ve got you
-                covered every day!
+                staples, we’ve got you covered every day!
             </p>
-            <div class="lg:ml-64 ">
+            <div class="lg:ml-64 animate-slide-up">
                 <img src="c2-assets/hero-vegetables.png" alt="" class="w-full">
             </div>
         </section>
+        
+        <style>
+          @keyframes fadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+        
+          @keyframes slideUp {
+            0% {
+              transform: translateY(20px);
+              opacity: 0;
+            }
+            100% {
+              transform: translateY(0);
+              opacity: 1;
+            }
+          }
+        
+          .animate-fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+          }
+        
+          .animate-slide-up {
+            animation: slideUp 1s ease-out;
+          }
+        </style>
+        
         <!-- Services -->
         <section class="mt-10 sm:mt-10">
 
@@ -107,11 +135,6 @@
 
         </section>
 
-
-        <!-- Popular products    -->
-
-
-
         <!-- Popular products    -->
         <section class="bg-[#EFEBE3] mt-16  pb-10 pt-6 lg:px-36 ">
 
@@ -122,8 +145,8 @@
 
                 <div class="col-span-2 row-span-3 border-2 border-[#179800] rounded-[10px] space-y-4 "
                     style="background: linear-gradient(to bottom right, #53DB3A, #FFFFFF);">
-                    <h2 class="text-3xl mt-10 ml-10">30% off</h2>
-                    <p class="text-xs ml-10">Discover a world of treats</p>
+                    <h2 class="text-3xl mt-10 ml-10 text-white font-semibold">30% off</h2>
+                    <p class="text-xs ml-10 font-semibold">Discover fresh vegies & discount</p>
                     <a href=""><button class="ml-10 px-3 py-2 bg-white rounded-[10px] mt-4">Buy Now</button></a>
                     <div class=" flex justify-end items-end">
                         <img src="c2-assets/vegetable-offer.png" alt="" class="ml-8 lg:ml-42">
